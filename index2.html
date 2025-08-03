@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contato</title>
+  <link rel="stylesheet" href="estilo/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .contato-container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #f8f8f8;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .contato-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .contato-container label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    .contato-container input,
+    .contato-container textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 4px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    .contato-container button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #2c3e50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .contato-container button:hover {
+      background-color: #1a252f;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contato-container">
+    <h2>Fale Conosco</h2>
+    <form action="mailto:seuemail@exemplo.com" method="POST" enctype="text/plain">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+</body>
+</html>

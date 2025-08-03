@@ -1,0 +1,50 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo de Peças</title>
+  <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Catálogo de Peças</h1>
+    <p>Consulta rápida de peças e estoque</p>
+  </header>
+
+  <!-- Barra de entrada -->
+  <div class="form-bar">
+    <input type="text" id="nome" placeholder="Nome da peça">
+    <input type="number" id="codigo" placeholder="Código do Produto">
+    <input type="number" id="quantidade" placeholder="Quantidade">
+    <input type="number" id="preco" placeholder="Preço (R$)">
+    <button onclick="adicionarProduto()">Adicionar Produto</button>
+    <button onclick="buscarProdutos()">Buscar</button>
+  </div>
+
+  <!-- Catálogo (Tabela) -->
+  <main class="catalogo">
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Código</th>
+          <th>Quantidade</th>
+          <th>Preço</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="tabela-produtos">
+        <!-- Produtos inseridos aqui -->
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>2025 Catálogo de Peças.</p>
+    <p><a href="contato.html">Contato</a></p>
+  </footer>
+
+  <script src="dist/index.js"></script>
+</body>
+</html>

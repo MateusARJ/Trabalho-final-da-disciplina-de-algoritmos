@@ -1,0 +1,81 @@
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      background: #f8f9fa;
+    }
+
+    header {
+      background-color: #343a40;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .form-bar {
+      padding: 1rem;
+      text-align: center;
+      background-color: #f1f1f1;
+    }
+
+    .form-bar input, .form-bar button {
+      padding: 0.4rem;
+      margin: 0.3rem;
+      font-size: 0.95rem;
+    }
+
+    main.catalogo {
+      flex: 1;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    table {
+      width: 100%;
+      max-width: 1200px;
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    thead {
+      background-color: #e3f2fd;
+    }
+
+    th, td {
+      padding: 0.75rem 1rem;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .acoes button {
+      background-color: #007bff;
+      border: none;
+      color: white;
+      padding: 0.4rem 0.7rem;
+      border-radius: 4px;
+      cursor: pointer;
+      margin: 0 0.2rem;
+    }
+
+    .acoes .remover {
+      background-color: #dc3545;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: underline;
+    }
