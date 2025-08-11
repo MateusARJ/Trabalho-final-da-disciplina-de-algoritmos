@@ -1,19 +1,21 @@
-# Olá
-Esse projeto consiste em um protótipo de site que serve para 
-organizar e consultar estoque com praticidade e intuitividade, 
-por enquanto é so um prototipo, mas quem sabe no futuro vira um site de verdade!
+# Protótipo de Site para Organização e Consulta de Estoque
+ Atividade final da disciplina de algoritimos Modulo 1
 
-# Requisitos: 
-Node.js (Versão 18 ou superior)
-Npm (Obtido junto com o NodeJs)
-TypeScript (Instale usando: npx install typescript --save-dev)
+Este projeto é um protótipo de site desenvolvido para facilitar a organização e consulta de estoques de forma prática e intuitiva. Atualmente, é apenas um protótipo, mas há planos para evoluir para uma aplicação completa no futuro.
 
-# Como utilizar:
-## 1. Instalar as dependências (caso o projeto tenha um package.json)
-usando npm install
+---
 
-## 2. Transpile o código TypeScript para JavaScript
-usando npx tsc
+## Tecnologias Utilizadas
 
-## 3. Executar o código (exemplo com o index.js gerado)
-usando node ./dist/index.js
+- **Node.js** (versão 18 ou superior)  
+- **TypeScript**  
+- **npm** (gerenciador de pacotes que acompanha o Node.js)
+
+---
+
+## Requisitos
+
+Antes de iniciar, certifique-se de ter instalado:
+
+- Node.js v18 ou superior: [https://nodejs.org/](https://nodejs.org/)  
+- TypeScript (instalado localmente no projeto):  
